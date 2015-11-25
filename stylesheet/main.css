@@ -119,6 +119,13 @@ input {
 	display: inline-block;
 }
 
+.featured-items .item .image img {
+	border-radius: 100%;
+	overflow: hidden;
+	width: 60%;
+	padding:1em 0;
+}
+
 footer {
 	background-color:#EA1F62;
 	display: flex;
