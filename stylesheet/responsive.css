@@ -1,0 +1,41 @@
+@media screen and (max-width: 767px) {
+	header {
+		display: inline-block;
+		padding:1em 0;
+	}
+	.logo {
+		width: 100%;
+		text-align: center;
+	}
+	.main-nav {
+		text-align: center;
+		line-height: 100%;
+		padding:1em 0;
+	}
+	.search {
+		width: 100%;
+		text-align: center;
+		padding:0;
+	}
+	.search input {
+		text-align: center;
+	}
+	.featured {
+		width:90%;
+	}
+	.featured-items {
+		display: inline-block;
+	}
+	.featured-items .item{
+		margin:1.2em 0;
+	}
+	.featured-items .item img {
+		max-width: 200px;
+	}
+	.featured-items .item:last-child{
+		display: none;
+	}
+	.how .item {
+	width: 100%;
+	}
+}
